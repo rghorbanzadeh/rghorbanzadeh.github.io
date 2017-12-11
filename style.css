@@ -1,10 +1,4 @@
-/* Created by http://P30Script.ir */
 
-/* basics */
-
-/* reset */
-@import url('../localhost:3509/fallback.css');
-@import url('../localhost:3509/stylep.css');
 * {
 margin: 0;
 padding: 0;
@@ -73,6 +67,7 @@ margin-bottom: 10px;
 
 p {
 padding-bottom: 20px;
+font-size:16px;
 }
 
 /* header */
@@ -211,18 +206,9 @@ padding:0;
 article {
 float: left;
 width: 620px;
-height: 200px;
-margin-bottom: 30px;
+margin-bottom:10px;
 }
 
-article .thumb {
-float: left;
-width: 200px;
-height: 200px;
-/* curved border radius */
--moz-border-radius: 10px;
--webkit-border-radius: 10px;
-}
 
 article .title {
 float: right;
@@ -230,26 +216,29 @@ width: 400px;
 font-size: 22px;
 font-weight: bold;
 margin-bottom: 10px;
+padding-right:10px;
 color: #213458;
 }
 
 article .story {
 float: right;
-width: 400px;
+width:600px;
 }
 
 /* sidebar */
 aside section {
 margin: 0 0 10px 0;
-padding: 30px 15px;
-background-color: #F0E7D4;
+padding-bottom:30px;
+padding-right:30px;
+padding-top:20px;
+font-size:18px;
+background-color:lightblue;
 -webkit-box-shadow: 3px 3px 7px #777;
 -moz-box-shadow: 3px 3px 7px #777;
 }
 
 aside section ul {
 margin: 0 0 0 20px;
-list-style-image: url(images/arrow.gif);
 color: #213458;
 }
 
